@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(rgb(0, 249, 0), rgb(13, 147, 13), rgb(10, 68, 10));
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    font-size: 30px;
+}
+h1{
+    color: rgb(148, 14, 201);
+    font-size: 40px;
+    background: linear-gradient(rgb(97, 8, 8), rgb(196, 26, 26), rgb(218, 11, 11))
+
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border:5px solid rgb(8, 74, 216);
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px rgb(0, 0, 0);}
+    to {box-shadow: 1px 1px 38px rgb(255, 255, 255);}
+}
+p
+{
+    padding-top:10px;
+    font-size:25px;
+}
+
+.btn{
+    background: rgb(21, 201, 165);
+}
